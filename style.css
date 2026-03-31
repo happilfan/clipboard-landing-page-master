@@ -37,6 +37,7 @@ body {
 
 .buttons {
   margin-top: 25px;
+  padding-bottom: 100px;
 }
 
 .ios {
@@ -90,16 +91,9 @@ margin-top: 20px;
 
 }
 
-.container2-box1 {
+.container2-box1, .container2-box2, .container2-box3 {
   padding-bottom: 5px;
-}
-
-.container2-box2 {
-  padding-bottom: 5px;
-}
-
-.container2-box3 {
-  padding-bottom: 5px;
+  width: 500px;
 }
 
 .container3 {
@@ -111,3 +105,144 @@ margin-top: 20px;
 .device-img {
 padding-top: 50px;
 }
+
+.tips {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 160px;
+}
+    .tips-row {
+        width: 360px;
+    }
+    .tips-title {
+        margin-top: 34px;
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(51, 51, 51);
+    }
+    .tips-text{
+        margin-top: 17px;
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%);
+        line-height: 1.8;
+    }
+    .tips-icon {
+        height: 40px;
+    }
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.clipboard {
+    text-align: center;
+}
+    .clipboard-title {
+        font-size: 34px;
+        font-weight: 600;
+        color: rgb(51, 51, 51);
+        margin-bottom: 20px;
+    }
+    .clipboard-text {
+        font-size: 18px;
+        font-weight: 500;
+        color: hsl(201, 11%, 66%);
+        line-height: 1.6;
+        margin-bottom: 45px;
+        margin-left: 380px;
+        margin-right: 380px;
+    }
+        @media (max-width: 1200px) {
+        .clipboard-text {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+    .clipboard-button-ios, .clipboard-button-mac {
+        font-size: 18px;
+        font-weight: 500;
+        color: hsl(0, 0%, 100%);
+        width: 220px;
+        height: 52px;
+        border: none;
+        border-radius: 26px;
+        margin-bottom: 140px;
+    }
+        .clipboard-button-ios {
+            background-color: rgb(36, 188, 165);
+            box-shadow: 
+                inset 0 -3px 0 rgba(0, 0, 0, 0.15),
+                0px 8px 30px rgba(36, 188, 165, 0.45);
+            margin-right: 6px;
+        }
+        .clipboard-button-mac {
+            background-color: rgb(97, 116, 255);
+            box-shadow: 
+                inset 0 -3px 0 rgba(0, 0, 0, 0.15),
+                0px 8px 30px rgba(0, 0, 0, 0.3);
+            margin-left: 6px;
+        }
+            .clipboard-button-ios:hover, .clipboard-button-mac:hover {
+                opacity: 0.8;
+            }
+
+.downer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+    background-color: rgba(245, 246, 248);
+}
+    .downer-left {
+        margin-left: 160px;
+    }
+        .downer-left-icon {
+            width: 55px;
+        }
+    .downer-middle {
+        display: flex;
+        gap: 80px;
+        margin-left: 130px;
+    }
+        .downer-middle-row {
+            font-size: 18px;
+            font-weight: 600;
+            color: rgb(129, 129, 129)
+        }
+            .downer-middle-text {
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+                .downer-middle-text:hover {
+                    color: hsl(171, 66%, 44%);
+                    cursor: pointer;
+                }
+    .downer-right {
+        margin-right: 160px;
+        margin-left: auto;
+    }
+        .downer-right-icon {
+            margin-left: 20px;
+        }
+            .downer-right-icon:hover {
+                filter: invert(56%) sepia(78%) saturate(520%) hue-rotate(135deg) brightness(92%) contrast(92%);
+                cursor: pointer;
+            }
+
+    .clipboard-text-2 {
+        font-size: 18px;
+        font-weight: 500;
+        color: hsl(201, 11%, 66%);
+        line-height: 1.6;
+    }
