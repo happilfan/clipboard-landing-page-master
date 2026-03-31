@@ -246,3 +246,9 @@ padding-top: 50px;
         color: hsl(201, 11%, 66%);
         line-height: 1.6;
     }
+
+@media (max-width: 1200px) {
+    .clipboard-text {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
